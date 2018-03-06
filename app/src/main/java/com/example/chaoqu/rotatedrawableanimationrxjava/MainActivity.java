@@ -104,7 +104,6 @@ public class MainActivity extends Activity implements View.OnClickListener, Medi
         btnPre.setOnClickListener(this);
         btnPlay.setOnClickListener(this);
         btnNext.setOnClickListener(this);
-
         new MyThread().start();
     }
 
